@@ -17,6 +17,8 @@ ppthtml, provided by xlhtml packges available from
 L<http://chicago.sourceforge.net/xlhtml/>, or your operating
 system's package manager.
 
+B<This code is not currently actively maintained.>
+
 =over 3
 
 =item text

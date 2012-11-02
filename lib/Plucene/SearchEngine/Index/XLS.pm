@@ -20,6 +20,7 @@ Plucene::SearchEngine::Index::Xls - Backend for plain text files
 This backend converts the .xls file into text file and the text file
 is used similar to Text.pm module.
 
+B<This code is not currently actively maintained.>
 
 =head1 METHODS
 

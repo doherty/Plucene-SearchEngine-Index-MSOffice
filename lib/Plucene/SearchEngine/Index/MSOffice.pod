@@ -1,7 +1,9 @@
 # PODNAME: Plucene::SearchEngine::Index::MSOffice
-# ABSTRACT: a set of Plucene backends for indexing Microsoft Office formats
+# ABSTRACT: an unmaintained set of Plucene backends for indexing Microsoft Office formats
 # VERSION
 
 =head1 DESCRIPTION
 
 These plugins provide indexing capabilities for Microsoft Office formats (doc, ppt, xls).
+
+B<This code is not currently actively maintained.>

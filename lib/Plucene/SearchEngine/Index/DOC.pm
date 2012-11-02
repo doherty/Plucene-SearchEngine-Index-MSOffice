@@ -14,6 +14,8 @@ __PACKAGE__->register_handler('application/doc', '.doc');
 
 This backend analyzes a DOC file for its textual content (using C<antiword>).
 
+B<This code is not currently actively maintained.>
+
 =head1 METHODS
 
 =head2 gather_data_from_file
