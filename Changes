@@ -1,0 +1,5 @@
+Revision history for Perl module {{$dist->name}}
+
+{{$NEXT}}
+  - First release to CPAN
+  - Original codebase by Sopan Shewale <sopan.shewale@gmail.com>
