@@ -14,7 +14,7 @@ my %module_build_args = (
   "configure_requires" => {
     "Module::Build" => "0.3601"
   },
-  "dist_abstract" => "a set of Plucene backends for indexing Microsoft Office formats",
+  "dist_abstract" => "an unmaintained set of Plucene backends for indexing Microsoft Office formats",
   "dist_author" => [
     "Sopan Shewale <sopan.shewale\@gmail.com>",
     "Mike Doherty <doherty\@pythian.com>"

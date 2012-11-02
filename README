@@ -1,6 +1,6 @@
 NAME
-    Plucene::SearchEngine::Index::MSOffice - a set of Plucene backends for
-    indexing Microsoft Office formats
+    Plucene::SearchEngine::Index::MSOffice - an unmaintained set of Plucene
+    backends for indexing Microsoft Office formats
 
 VERSION
     version 0.001
@@ -8,6 +8,8 @@ VERSION
 DESCRIPTION
     These plugins provide indexing capabilities for Microsoft Office formats
     (doc, ppt, xls).
+
+    This code is not currently actively maintained.
 
 AVAILABILITY
     The latest version of this module is available from the Comprehensive

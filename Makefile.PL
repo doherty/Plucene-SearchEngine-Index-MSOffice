@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "a set of Plucene backends for indexing Microsoft Office formats",
+  "ABSTRACT" => "an unmaintained set of Plucene backends for indexing Microsoft Office formats",
   "AUTHOR" => "Sopan Shewale <sopan.shewale\@gmail.com>, Mike Doherty <doherty\@pythian.com>",
   "BUILD_REQUIRES" => {
     "File::Find" => 0,
