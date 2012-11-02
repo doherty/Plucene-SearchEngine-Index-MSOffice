@@ -1,6 +1,6 @@
 NAME
-    MSOffice - a set of Plucene backends for indexing Microsoft Office
-    formats
+    Plucene::SearchEngine::Index::MSOffice - a set of Plucene backends for
+    indexing Microsoft Office formats
 
 VERSION
     version 0.001
@@ -15,9 +15,16 @@ AVAILABILITY
     CPAN site near you, or see
     <https://metacpan.org/module/Plucene::SearchEngine::Index::MSOffice/>.
 
+SOURCE
+    The development version is on github at
+    <http://github.com/doherty/Plucene-SearchEngine-Index-MSOffice> and may
+    be cloned from
+    <git://github.com/doherty/Plucene-SearchEngine-Index-MSOffice.git>
+
 BUGS AND LIMITATIONS
     You can make new bug reports, and view existing ones, through the web
-    interface at <http://rt.cpan.org>.
+    interface at
+    <https://github.com/doherty/Plucene-SearchEngine-Index-MSOffice/issues>.
 
 AUTHORS
     *   Sopan Shewale <sopan.shewale@gmail.com>

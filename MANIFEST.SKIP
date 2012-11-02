@@ -1,5 +1,3 @@
-
-#!start included /home/mike/perl5/perlbrew/perls/perl-5.16.1-threads/lib/5.16.1/ExtUtils/MANIFEST.SKIP
 # Avoid version control files.
 \bRCS\b
 \bCVS\b
@@ -55,10 +53,6 @@
 
 # Avoid MYMETA files
 ^MYMETA\.
-#!end included /home/mike/perl5/perlbrew/perls/perl-5.16.1-threads/lib/5.16.1/ExtUtils/MANIFEST.SKIP
-
-# Avoid configuration metadata file
-^MYMETA\.
 
 # Avoid Module::Build generated and utility files.
 \bBuild$
@@ -70,4 +64,4 @@
 ^MANIFEST\.SKIP
 
 # Avoid archives of this distribution
-\bPlucene-SearchEngine-Index-Extras-[\d\.\_]+
+\bPlucene-SearchEngine-Index-MSOffice-[\d\.\_]+
