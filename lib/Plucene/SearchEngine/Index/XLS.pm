@@ -64,7 +64,6 @@ sub _exceltotext {
     open my $txt_out, '>', $output or die "Not able to open file : $!";
 
     my $oBook = $oExcel->Parse($excel);
-    my($iC, $oWkS, $oWkC);
 
     print $txt_out "FILE  :", $oBook->{File} , "\n";
     print $txt_out "COUNT :", $oBook->{SheetCount} , "\n";
@@ -73,7 +72,7 @@ sub _exceltotext {
         if defined $oBook->{Author};
 
     for(my $iSheet=0; $iSheet < $oBook->{SheetCount} ; $iSheet++) {
-        $oWkS = $oBook->{Worksheet}[$iSheet];
+        my $oWkS = $oBook->{Worksheet}[$iSheet];
         print OUTPUT  $oWkS->{Name}, "\n";
         for(my $iR = $oWkS->{MinRow} ;
             defined $oWkS->{MaxRow} && $iR <= $oWkS->{MaxRow} ;
@@ -83,7 +82,7 @@ sub _exceltotext {
                 defined $oWkS->{MaxCol} && $iC <= $oWkS->{MaxCol} ;
                 $iC++)
             {
-                $oWkC = $oWkS->{Cells}[$iR][$iC];
+                my $oWkC = $oWkS->{Cells}[$iR][$iC];
                 print OUTPUT $oWkC->Value, "\n" if($oWkC);
             }
         }
